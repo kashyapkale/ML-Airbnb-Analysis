@@ -14,7 +14,7 @@ import seaborn as sns
 
 def run_regression():
     # Load the PCA-reduced dataset
-    file_path = 'pca_reduced_dataset_no_targets.csv'  # Update path if needed
+    file_path = '../pca_reduced_dataset_no_targets.csv'  # Update path if needed
     data = pd.read_csv(file_path)
 
     # Calculate the IQR for 'price_usd'
