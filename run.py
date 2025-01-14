@@ -1,11 +1,11 @@
 import os
 import pandas as pd
-from data_cleaning import clean_data
-from eda import perform_eda
-from feature_selection_pca import feature_selection_and_pca
-from regression import run_regression
-from classification import run_classification
-from clustering import perform_clustering
+from Main.data_cleaning import clean_data
+from Main.eda import perform_eda
+from Main.feature_selection_pca import feature_selection_and_pca
+from Main.regression import run_regression
+from Main.classification import run_classification
+from Main.clustering import perform_clustering
 
 
 input_file = os.path.join('', "Listings.csv")
